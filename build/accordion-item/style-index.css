@@ -1,0 +1,49 @@
+/*!******************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/accordion-item/style.scss ***!
+  \******************************************************************************************************************************************************************************************************************************************************/
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+.accordion-item__header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.accordion-item__header-icon {
+  flex: 0 0 auto;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+.accordion-item__header-icon .arrow-up {
+  display: none;
+}
+.accordion-item__header-icon .arrow-down {
+  display: inline-block;
+}
+.accordion-item__header-text {
+  flex: 1 1 auto;
+}
+.accordion-item__header:hover {
+  cursor: pointer;
+}
+.accordion-item__header:hover .accordion-item__header-text {
+  text-decoration: underline;
+}
+.accordion-item__body {
+  display: none;
+}
+.accordion-item.active .arrow-down {
+  display: none;
+}
+.accordion-item.active .arrow-up {
+  display: inline-block;
+}
+.accordion-item.active .accordion-item__body {
+  display: block;
+}
+
+/*# sourceMappingURL=style-index.css.map*/

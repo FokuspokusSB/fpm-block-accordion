@@ -1,0 +1,57 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.accordion-item {
+	&__header {
+		display: flex;
+		align-items: center;
+		gap: 10px;
+
+		&-icon {
+			flex: 0 0 auto;
+			display: inline-flex;
+			justify-content: center;
+			align-items: center;
+
+			.arrow-up {
+				display: none;
+			}
+			.arrow-down {
+				display: inline-block;
+			}
+		}
+
+		&-text {
+			flex: 1 1 auto;
+		}
+
+		&:hover {
+			cursor: pointer;
+
+			.accordion-item__header-text {
+				text-decoration: underline;
+			}
+		}
+	}
+
+	&__body {
+		display: none;
+	}
+
+	&.active {
+		.arrow-down {
+			display: none;
+		}
+		.arrow-up {
+			display: inline-block;
+		}
+
+		.accordion-item__body {
+			display: block;
+		}
+	}
+}

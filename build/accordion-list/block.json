@@ -1,0 +1,30 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "fpm-block/accordion-list",
+  "version": "0.1.0",
+  "title": "Accordion List",
+  "category": "widgets",
+  "icon": "list-view",
+  "description": "Accordion Parent Element",
+  "supports": {
+    "html": false,
+    "spacing": {
+      "margin": true,
+      "padding": true
+    },
+    "color": {
+      "background": true,
+      "text": true
+    },
+    "className": true,
+    "customClassName": true,
+    "dimensions": {
+      "minHeight": true
+    }
+  },
+  "textdomain": "fpm-block-accordion-list",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}

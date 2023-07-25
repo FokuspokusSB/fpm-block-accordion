@@ -1,0 +1,32 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "fpm-block/accordion-item",
+  "version": "0.1.0",
+  "title": "Accordion Item",
+  "category": "widgets",
+  "icon": "schedule",
+  "description": "Example block scaffolded with Create Block tool.",
+  "supports": {
+    "html": false,
+    "spacing": {
+      "margin": true,
+      "padding": true
+    },
+    "color": {
+      "background": true,
+      "text": true
+    },
+    "className": true,
+    "customClassName": true,
+    "dimensions": {
+      "minHeight": true
+    }
+  },
+  "textdomain": "fpm-block-accordion-item",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "render": "file:./render.php",
+  "viewScript": "file:./view.js"
+}
