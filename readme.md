@@ -52,7 +52,9 @@ An answer to that question.
 
 ## Screenshots
 
-1.
+![Editor List](./images/editor-list.png)
+
+![Guttenberg Editor](./images/gb-editor.png)
 
 ## Changelog
 
